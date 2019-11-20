@@ -5,7 +5,7 @@ authors = ["Mike Belopuhov <mike@belopuhov.com>"]
 license = "Apache-2.0"
 
 description = "Append-only B+Tree database"
-repository = "https://github.com/mbelop/btdb.git"
+repository = "https://github.com/mbelop/btreedb.git"
 keywords = ["btdb", "database", "storage-engine", "library"]
 categories = ["database"]
 
