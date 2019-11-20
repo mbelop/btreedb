@@ -1,0 +1,20 @@
+[package]
+name = "btree"
+version = "0.1.0"
+authors = ["Mike Belopuhov <mike@belopuhov.com>"]
+license = "Apache-2.0"
+
+description = "Append-only B+Tree database"
+repository = "https://github.com/mbelop/btdb.git"
+keywords = ["btdb", "database", "storage-engine", "library"]
+categories = ["database"]
+
+links = "crypto"
+build = "build.rs"
+
+[dependencies]
+libc = "~0.2"
+
+[build-dependencies]
+pkg-config = "~0.3"
+cc = "~1.0"
